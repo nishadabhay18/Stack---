@@ -4,7 +4,7 @@ class Solution {
         int n = temperatures.length;
         Stack<Integer> st = new Stack<>();
         int[] nge = new int[n];
-        nge[n-1] = -1;
+        nge[n-1]=-1;
         st.push(n-1);
         for(int i=n-2; i>=0; i--){
             int ele = temperatures[i];
