@@ -1,9 +1,7 @@
 class FreqStack {
     // TC-> O(log n) SC-> O(n)
     public class Triplet implements Comparable<Triplet>{
-        int ele;
-        int freq;
-        int time;
+        int ele, freq, time;
         Triplet(int ele, int freq, int time){
             this.ele = ele;
             this.freq = freq;
