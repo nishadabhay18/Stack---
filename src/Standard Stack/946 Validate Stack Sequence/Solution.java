@@ -7,7 +7,7 @@ class Solution {
             st.push(x);
             while(!st.isEmpty() && st.peek() == popped[idx]) {
                 st.pop();
-                idx++;
+                idx++; 
             }
         }
         return st.isEmpty();
