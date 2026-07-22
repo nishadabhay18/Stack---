@@ -8,7 +8,7 @@ class Solution {
             int ascii = (int)ch;
             if(ascii >= 97 && ascii <= 122) st.push(ch);
             else st.pop();
-        }
+        } 
         StringBuilder sb = new StringBuilder();
         while(st.size() != 0) sb.append(st.pop());
         sb.reverse();
